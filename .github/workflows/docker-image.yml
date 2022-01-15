@@ -41,8 +41,7 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-
-  Deploy-DCWiz-Frontend:
+  upload-nginx-image:
     runs-on: self-hosted
     steps:
       - name: Check out repository code
