@@ -1,4 +1,4 @@
-FROM debian:10 as build
+FROM debian:11 as build
 
 WORKDIR /opt/nginx
 
